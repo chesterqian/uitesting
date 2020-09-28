@@ -1,0 +1,1 @@
+GENERIC_LOADING_ICON = "//android.widget.ProgressBar[@class='android.widget.ProgressBar']"

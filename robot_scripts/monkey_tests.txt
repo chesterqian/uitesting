@@ -1,0 +1,7 @@
+*** Settings ***
+Documentation    Suite description
+Library           ../controller/MainController.py
+*** Test Cases ***
+MonkeyTestForXjbAfterLogin
+    [Setup]    Set Environemt Args  ${app_path}     ${platform_name}    ${version}
+    execute monkey test after login     ${monkey_test_log_output}

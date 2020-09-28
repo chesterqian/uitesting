@@ -1,0 +1,37 @@
+*** Settings ***
+Documentation    Suite description
+Library           ../controller/MainController.py
+Library           Screenshot
+
+*** Test Cases ***
+
+
+test home page recharge
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test home page recharge
+    [Teardown]      Case Tear Down
+
+test home page fast withdraw
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test home page fast withdraw
+    [Teardown]      Case Tear Down
+
+test home page regular withdraw
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test home page regular withdraw
+    [Teardown]      Case Tear Down
+
+test xjb detail page recharge
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test xjb detail page recharge
+    [Teardown]      Case Tear Down
+
+test xjb detail page fast withdraw
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test xjb detail page fast withdraw
+    [Teardown]      Case Tear Down
+
+test xjb detail page regular withdraw
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test xjb detail page regular withdraw
+    [Teardown]      Case Tear Down

@@ -1,0 +1,112 @@
+*** Settings ***
+Documentation    Suite description
+Library           ../controller/MainController.py
+Library           Screenshot
+
+*** Test Cases ***
+
+
+test home page recharge
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test home page recharge
+    [Teardown]      Case Tear Down
+
+test home page fast withdraw
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test home page fast withdraw
+    [Teardown]      Case Tear Down
+
+test home page regular withdraw
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test home page regular withdraw
+    [Teardown]      Case Tear Down
+
+test xjb detail page recharge
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test xjb detail page recharge
+    [Teardown]      Case Tear Down
+
+test xjb detail page fast withdraw
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test xjb detail page fast withdraw
+    [Teardown]      Case Tear Down
+
+test xjb detail page regular withdraw
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test xjb detail page regular withdraw
+    [Teardown]      Case Tear Down
+
+test register not binding card
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test register not binding card
+    [Teardown]      Case Tear Down
+
+test register binding card
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test register binding card
+    [Teardown]      Case Tear Down
+
+test register unbundling card
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test register unbundling card
+    [Teardown]      Case Tear Down
+
+test login binding card
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test login binding card
+    [Teardown]      Case Tear Down
+
+test personal center invite friend
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test personal center invite friend
+    [Teardown]      Case Tear Down
+
+# test personal center share weixin friend
+#     [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+#     test personal center share weixin friend
+#     [Teardown]      Case Tear Down
+
+# test personal center share weixin circle
+#     [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+#     test personal center share weixin circle
+#     [Teardown]      Case Tear Down
+
+# test personal center share weibo
+#     [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+#     test personal center share weibo
+#     [Teardown]      Case Tear Down
+
+# test login page find login password user not binding card
+#     [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+#     test login page find login password user not binding card
+#     [Teardown]      Case Tear Down
+
+# test login page find login password user binding card
+#     [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+#     test login page find login password user binding card
+#     [Teardown]      Case Tear Down
+
+# test setting find login password user not binding card
+#     [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+#     test setting find login password user not binding card
+#     [Teardown]      Case Tear Down
+
+# test setting find login password user binding card
+#     [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+#     test setting find login password user binding card
+#     [Teardown]      Case Tear Down
+
+test setting change login password
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test setting change login password
+    [Teardown]      Case Tear Down
+
+test setting change trade password
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test setting change trade password
+    [Teardown]      Case Tear Down
+
+test setting change phone by sms
+    [Setup]    Set Environemt Args1  ${app_path}     ${platform_name}    ${version}    ${account}
+    test setting change phone by sms
+    [Teardown]      Case Tear Down
