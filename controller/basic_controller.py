@@ -91,7 +91,8 @@ class BasicController:
                         'firefox': MyFireFoxWebDriver,
                         'ie': MyIEWebDriver,
                         'phantomjs': MyPhantomjsDriver}
-        self.web_driver = browser_dict[browser](executable_path='/opt/WebDriver/bin/chromedriver')
+        self.web_driver = browser_dict[browser](executable_path='C:/Users/jqian079/Downloads/chromedriver.exe')
+        # self.web_driver = browser_dict[browser](executable_path='/opt/WebDriver/bin/chromedriver')
         # self.web_driver = browser_dict[browser](executable_path='/opt/WebDriver/bin/geckodriver')
         # assert 0
         self.web_driver.maximize_window()
